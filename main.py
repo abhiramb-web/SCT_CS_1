@@ -21,7 +21,7 @@ def main():
 
     while True:
 
-        print("\n===== Caesar Cipher =====")
+        print("\nWelcome to  Caesar Cipher program!")
         print("1. Encrypt")
         print("2. Decrypt")
         print("3. Exit")

@@ -1,24 +1,40 @@
-# SCT_CS_1
 # Caesar Cipher Encryption Tool
 
 ## Description
-
 A Python application that encrypts and decrypts text using the Caesar Cipher algorithm.
 
 ## Features
 
-- Encrypt text
-- Decrypt text
+- Encrypt messages
+- Decrypt messages
 - User-defined shift value
+- Preserves spaces, numbers and symbols
 - Handles uppercase and lowercase letters
-- Preserves spaces and punctuation
-- Simple GUI (coming soon)
+- Input validation
 
-## Technologies Used
+## Technologies
 
 - Python 3
-- Tkinter
 
-## Project Status
+## Project Structure
 
-🚧 Under Development
+SCT_CS_1/
+│── main.py
+│── README.md
+│── LICENSE
+│── .gitignore
+│── screenshots/
+
+## How to Run
+
+python main.py
+
+## Future Improvements
+
+- GUI using Tkinter
+- File encryption
+- Custom themes
+
+## Author
+
+Abhiram
