@@ -13,31 +13,42 @@ def encrypt(message, shift):
             encrypted += char
 
     return encrypted
-
+2
 def decrypt(message, shift):
     return encrypt(message, -shift)
 
 def main():
-    print("===== Caesar Cipher =====")
-    print("1. Encrypt")
-    print("2. Decrypt")
 
-    choice = input("Choose (1/2): ")
+    while True:
 
-    message = input("Enter message: ")
-    shift = int(input("Enter shift value: "))
+        print("\n===== Caesar Cipher =====")
+        print("1. Encrypt")
+        print("2. Decrypt")
+        print("3. Exit")
 
-    if choice == "1":
-        result = encrypt(message, shift)
-        print("Encrypted:", result)
+        choice = input("Choose (1/2/3): ")
 
-    elif choice == "2":
-        result = decrypt(message, shift)
-        print("Decrypted:", result)
+        if choice == "3":
+            print("Thank you for using Caesar Cipher!")
+            break
 
-    else:
-        print("Invalid Choice")
+        message = input("Enter input message: ")
 
+        while True:
+            try:
+                shift = int(input("Enter  value to shift by: "))
+                break
+            except ValueError:
+                print(" Please enter a correct number.")
+
+        if choice == "1":
+            print("Encrypted:", encrypt(message, shift))
+
+        elif choice == "2":
+            print("Decrypted:", decrypt(message, shift))
+
+        else:
+            print(" Incorrect Choice")
 
 if __name__ == "__main__":
     main()
