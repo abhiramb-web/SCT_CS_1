@@ -140,7 +140,7 @@ GitHub:
 https://github.com/abhiramb-web
 
 LinkedIn:
-https://www.linkedin.com/in/abhi-ram-08233341b/
+https://www.linkedin.com/in/b-abhiram-08233341b
 
 ---
 
